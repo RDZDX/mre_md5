@@ -1,0 +1,7 @@
+; mre_md5.def : Declares the module parameters for the DLL.
+
+LIBRARY      "mre_md5"
+DESCRIPTION  'mre_md5 Windows Dynamic Link Library'
+
+EXPORTS
+    vm_entry @1
